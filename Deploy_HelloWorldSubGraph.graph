@@ -21,8 +21,25 @@
         "lastModifiedDatetime": 0,
         "numLGNodes": 5
     },
-    "activeGraphConfigId": "",
-    "graphConfigurations": {},
+    "activeGraphConfigId": "529c9ad4-e15f-4838-84da-c822084e3df3",
+    "graphConfigurations": {
+        "8445f654-88c7-4ac1-b469-460ff495911c": {
+            "name": "newConfig",
+            "description": "",
+            "nodes": {},
+            "lastModifiedName": "",
+            "lastModifiedEmail": "",
+            "lastModifiedDatetime": 0
+        },
+        "529c9ad4-e15f-4838-84da-c822084e3df3": {
+            "name": "newConfig",
+            "description": "",
+            "nodes": {},
+            "lastModifiedName": "",
+            "lastModifiedEmail": "",
+            "lastModifiedDatetime": 0
+        }
+    },
     "nodeDataArray": [
         {
             "category": "PythonApp",
@@ -558,8 +575,8 @@
             "name": "HelloWorld-simple.graph",
             "description": "GitHub: ICRAR/EAGLE-graph-repo (master): examples/HelloWorld-simple.graph",
             "x": 1242.2661283574496,
-            "y": 427.868779900336,
-            "radius": 104.7816831836202,
+            "y": 427.2796844184108,
+            "radius": 104.91094438298056,
             "collapsed": true,
             "subject": null,
             "expanded": true,
@@ -705,7 +722,7 @@
             "outputAppFields": [],
             "inputApplicationName": "DeployApp::run",
             "inputApplicationType": "PythonApp",
-            "inputApplicationId": "5d3f1764-c8e1-401e-ad38-9e60846440eb",
+            "inputApplicationId": "ab806ffa-08af-44e5-a395-335041b53c7a",
             "inputApplicationDescription": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
