@@ -50,9 +50,9 @@
             "id": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
             "name": "HelloWorld-simple.graph",
             "description": "GitHub: ICRAR/EAGLE-graph-repo (master): examples/HelloWorld-simple.graph",
-            "x": 1230.1151143623883,
-            "y": 413.65194026739397,
-            "radius": 107.40968718864812,
+            "x": 1239.0732832812153,
+            "y": 401.7077150422916,
+            "radius": 111.4777740816059,
             "collapsed": true,
             "subject": null,
             "expanded": true,
@@ -68,12 +68,12 @@
                     "defaultValue": "",
                     "description": "Object reference",
                     "readonly": true,
-                    "type": "String",
+                    "type": "Object",
                     "precious": false,
                     "options": [],
                     "positional": false,
                     "encoding": "pickle",
-                    "id": "fab2f3ee-8ebc-476d-8e90-bb529ca16f09",
+                    "id": "ca258f8b-d68d-4492-9268-957320a3be37",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputPort"
                 },
@@ -94,7 +94,7 @@
                     ],
                     "positional": false,
                     "encoding": "pickle",
-                    "id": "c736e233-fc9c-4905-9ade-03509b491bf1",
+                    "id": "0b3ef428-a59e-4c31-9081-f1858acf1313",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -115,7 +115,7 @@
                     ],
                     "positional": false,
                     "encoding": "pickle",
-                    "id": "55dfd0ee-a3c0-4299-8f40-49d1053351b3",
+                    "id": "49281685-dc42-4ff9-a21e-fe77ce62c9a5",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -130,7 +130,7 @@
                     "options": [],
                     "positional": false,
                     "encoding": "pickle",
-                    "id": "5e2ded9f-e7e7-484b-b1fa-c69fa9649184",
+                    "id": "02e317df-f222-49ce-8adf-d39cd416d7f4",
                     "parameterType": "ConstraintParameter",
                     "usage": "NoPort"
                 },
@@ -145,7 +145,7 @@
                     "options": [],
                     "positional": false,
                     "encoding": "pickle",
-                    "id": "2e9f0386-54c7-46df-beb3-5c9552b321fd",
+                    "id": "65e9c267-5453-4148-834e-4744ac5d0fe2",
                     "parameterType": "ConstraintParameter",
                     "usage": "NoPort"
                 },
@@ -160,7 +160,7 @@
                     "options": [],
                     "positional": false,
                     "encoding": "pickle",
-                    "id": "bb92eaee-f8c6-494f-afe2-162849e68540",
+                    "id": "416c1d50-ed03-4227-99d0-9122934696f0",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -175,14 +175,14 @@
                     "options": [],
                     "positional": false,
                     "encoding": "pickle",
-                    "id": "8fdb5c8d-e16b-405c-87b1-adc9f6dff977",
+                    "id": "336a68f5-16ce-44bf-965d-0f10d2d5365d",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
                 {
                     "name": "func_name",
-                    "value": "dlg.apps.deploy.DeployApp.run",
-                    "defaultValue": "dlg.apps.deploy.DeployApp.run",
+                    "value": "dlg.deploy.slurm_client.SlurmClient.submit_job",
+                    "defaultValue": "dlg.deploy.slurm_client.SlurmClient.submit_job",
                     "description": "Complete import path of function",
                     "readonly": true,
                     "type": "String",
@@ -190,7 +190,7 @@
                     "options": [],
                     "positional": false,
                     "encoding": "pickle",
-                    "id": "ba15203c-2577-4f67-9a97-fbbcb9e3e0a7",
+                    "id": "da9325ec-7eee-4c2a-ba42-9a9b9febb50d",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -205,7 +205,7 @@
                     "options": [],
                     "positional": false,
                     "encoding": "pickle",
-                    "id": "ad5e34d5-feba-4449-a9f4-34277a23c13c",
+                    "id": "2621ac9e-0211-4b65-8ea5-7da5ba96ed81",
                     "parameterType": "ComponentParameter",
                     "usage": "OutputPort"
                 }
@@ -376,10 +376,10 @@
                     "usage": "NoPort"
                 }
             ],
-            "inputApplicationName": "DeployApp::run",
+            "inputApplicationName": "SlurmClient::submit_job",
             "inputApplicationType": "PythonApp",
-            "inputApplicationId": "e0f365c6-7429-4a2a-a409-bc448329e356",
-            "inputApplicationDescription": "",
+            "inputApplicationId": "70c232fd-9fbd-4f9b-b1fc-3ddc7c6c2a65",
+            "inputApplicationDescription": "_::memberfunction_: Submits the slurm script to the requested facility\n",
             "outputApplicationName": "GenericGatherApp",
             "outputApplicationType": "PythonApp",
             "outputApplicationId": "8fb8817f-6f7d-403c-8945-788f15604445",
@@ -867,8 +867,8 @@
             "id": "fae2cb2d-4b80-4f81-8dc1-b182a3d5c2de",
             "name": "trigger",
             "description": "In-memory storage of intermediate data products",
-            "x": 1191.5620568933543,
-            "y": 395.2424577981997,
+            "x": 1214.8532960823034,
+            "y": 379.1177537443117,
             "radius": 25,
             "collapsed": true,
             "subject": null,
@@ -1546,22 +1546,6 @@
             "closesLoop": false
         },
         {
-            "from": "a62fd361-a8a3-4808-ad64-576d93631d16",
-            "fromPort": "3855a052-d137-4fe2-97c9-475e17e41111",
-            "to": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
-            "toPort": "fab2f3ee-8ebc-476d-8e90-bb529ca16f09",
-            "loop_aware": "0",
-            "closesLoop": false
-        },
-        {
-            "from": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
-            "fromPort": "ad5e34d5-feba-4449-a9f4-34277a23c13c",
-            "to": "fae2cb2d-4b80-4f81-8dc1-b182a3d5c2de",
-            "toPort": "de1d04fb-7c8d-43ea-9022-5e7554d1ed5a",
-            "loop_aware": "0",
-            "closesLoop": false
-        },
-        {
             "from": "fae2cb2d-4b80-4f81-8dc1-b182a3d5c2de",
             "fromPort": "de1d04fb-7c8d-43ea-9022-5e7554d1ed5a",
             "to": "82347e02-4c3d-458e-bed8-e25104580fe5",
@@ -1582,6 +1566,22 @@
             "fromPort": "2f402850-c56c-48ee-9662-172ba55a1704",
             "to": "a62fd361-a8a3-4808-ad64-576d93631d16",
             "toPort": "3855a052-d137-4fe2-97c9-475e17e41111",
+            "loop_aware": "0",
+            "closesLoop": false
+        },
+        {
+            "from": "a62fd361-a8a3-4808-ad64-576d93631d16",
+            "fromPort": "3855a052-d137-4fe2-97c9-475e17e41111",
+            "to": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
+            "toPort": "ca258f8b-d68d-4492-9268-957320a3be37",
+            "loop_aware": "0",
+            "closesLoop": false
+        },
+        {
+            "from": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
+            "fromPort": "2621ac9e-0211-4b65-8ea5-7da5ba96ed81",
+            "to": "fae2cb2d-4b80-4f81-8dc1-b182a3d5c2de",
+            "toPort": "de1d04fb-7c8d-43ea-9022-5e7554d1ed5a",
             "loop_aware": "0",
             "closesLoop": false
         }
