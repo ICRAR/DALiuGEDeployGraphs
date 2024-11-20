@@ -78,21 +78,6 @@
                     "usage": "InputPort"
                 },
                 {
-                    "name": "subgraph",
-                    "value": "None",
-                    "defaultValue": "None",
-                    "description": "",
-                    "readonly": false,
-                    "type": "Object.dict",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "encoding": "pickle",
-                    "id": "36a3dd76-c4ba-4cff-bee8-04dd7a277903",
-                    "parameterType": "ApplicationArgument",
-                    "usage": "NoPort"
-                },
-                {
                     "name": "input_parser",
                     "value": "pickle",
                     "defaultValue": "pickle",
