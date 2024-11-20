@@ -1020,7 +1020,7 @@
             "id": "d4e4f68b-d374-4964-bbff-fbde0270de05",
             "name": "SlurmClient::__init__",
             "description": "parameters we can control:\n\n1. user group / account name (Required)\n2. whether to submit a graph, and if so provide graph path\n3. # of nodes (of Drop Managers)\n4. how long to run\n5. whether to produce offline graph vis\n6. whether to attach proxy for remote monitoring, and if so provide\n    DLG_MON_HOST\n    DLG_MON_PORT\n7. Root directory of the Log files (Required)\n",
-            "x": 849.3533274809014,
+            "x": 850.6839141709778,
             "y": 415.6509574869162,
             "radius": 25,
             "collapsed": false,
@@ -1048,8 +1048,8 @@
                 },
                 {
                     "name": "dlg_root",
-                    "value": "None",
-                    "defaultValue": "None",
+                    "value": "",
+                    "defaultValue": "",
                     "description": "",
                     "readonly": false,
                     "type": "String",
@@ -1063,8 +1063,8 @@
                 },
                 {
                     "name": "log_root",
-                    "value": "None",
-                    "defaultValue": "None",
+                    "value": "",
+                    "defaultValue": "",
                     "description": "",
                     "readonly": false,
                     "type": "String",
@@ -1079,7 +1079,7 @@
                 {
                     "name": "host",
                     "value": "setonix.pawsey.org.au",
-                    "defaultValue": "None",
+                    "defaultValue": "",
                     "description": "",
                     "readonly": false,
                     "type": "String",
@@ -1094,7 +1094,7 @@
                 {
                     "name": "acc",
                     "value": "pawsey0411",
-                    "defaultValue": "None",
+                    "defaultValue": "",
                     "description": "",
                     "readonly": false,
                     "type": "String",
@@ -1108,8 +1108,8 @@
                 },
                 {
                     "name": "physical_graph_template_file",
-                    "value": "None",
-                    "defaultValue": "None",
+                    "value": "",
+                    "defaultValue": "",
                     "description": "",
                     "readonly": false,
                     "type": "String",
@@ -1124,7 +1124,7 @@
                 {
                     "name": "logical_graph",
                     "value": "",
-                    "defaultValue": "None",
+                    "defaultValue": "",
                     "description": "",
                     "readonly": false,
                     "type": "String",
@@ -1229,7 +1229,7 @@
                 {
                     "name": "facility",
                     "value": "setonix",
-                    "defaultValue": "None",
+                    "defaultValue": "",
                     "description": "",
                     "readonly": false,
                     "type": "String",
@@ -1378,8 +1378,8 @@
                 },
                 {
                     "name": "pip_name",
-                    "value": "None",
-                    "defaultValue": "None",
+                    "value": "",
+                    "defaultValue": "",
                     "description": "",
                     "readonly": false,
                     "type": "String",
@@ -1394,7 +1394,7 @@
                 {
                     "name": "username",
                     "value": "rbunney",
-                    "defaultValue": "None",
+                    "defaultValue": "",
                     "description": "",
                     "readonly": false,
                     "type": "String",
