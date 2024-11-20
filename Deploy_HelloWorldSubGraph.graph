@@ -50,7 +50,7 @@
             "id": "b5e7c462-ca82-4e28-9edb-ff0b057b6d93",
             "name": "DeployApp::__init__",
             "description": "",
-            "x": 859.242278411606,
+            "x": 859.9075717566442,
             "y": 422.7317191671469,
             "radius": 25,
             "collapsed": false,
@@ -258,7 +258,7 @@
                 },
                 {
                     "name": "facility",
-                    "value": "None",
+                    "value": "setonix",
                     "defaultValue": "None",
                     "description": "",
                     "readonly": false,
