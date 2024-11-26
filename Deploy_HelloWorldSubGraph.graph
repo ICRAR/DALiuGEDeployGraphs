@@ -60,7 +60,23 @@
             "commitHash": "",
             "paletteDownloadUrl": "",
             "dataHash": "",
-            "fields": [],
+            "fields": [
+                {
+                    "name": "subgraph_keyword_map",
+                    "value": "logical_graph",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "72e215d1-0cbd-4c6e-b158-205d85571fec",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
+                }
+            ],
             "inputAppFields": [
                 {
                     "name": "self",
@@ -76,6 +92,21 @@
                     "id": "fd7b5d12-312c-4e4b-9f38-a95ac32a4f86",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputPort"
+                },
+                {
+                    "name": "logical_graph",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "41e686a5-899d-4ea5-8d32-a06fdc1174a3",
+                    "parameterType": "ApplicationArgument",
+                    "usage": "NoPort"
                 },
                 {
                     "name": "input_parser",
@@ -378,11 +409,11 @@
             ],
             "inputApplicationName": "SlurmClient::submit_job",
             "inputApplicationType": "PythonApp",
-            "inputApplicationId": "31116661-3137-44ef-af29-86f7c3f30158",
+            "inputApplicationId": "67786542-8c7b-4f8a-9e5e-c4e7c0d4abbb",
             "inputApplicationDescription": "_::memberfunction_: Submits the slurm script to the requested facility\n",
             "outputApplicationName": "GenericGatherApp",
             "outputApplicationType": "PythonApp",
-            "outputApplicationId": "17f2086a-78af-4dc3-b16c-8112e6fb3265",
+            "outputApplicationId": "c60ebf83-5cc1-4ebe-b979-55721f9b56cf",
             "outputApplicationDescription": "App that reads all its inputs and simply writes them in concatenated to all its outputs. This can be used stand-alone or as part of a Gather. It does not do anything to the data, just passing it on."
         },
         {
