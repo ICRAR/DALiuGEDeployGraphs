@@ -409,11 +409,11 @@
             ],
             "inputApplicationName": "SlurmClient::submit_job",
             "inputApplicationType": "PythonApp",
-            "inputApplicationId": "67786542-8c7b-4f8a-9e5e-c4e7c0d4abbb",
+            "inputApplicationId": "532ecccf-4e0b-49b9-a2b3-db806eace1e7",
             "inputApplicationDescription": "_::memberfunction_: Submits the slurm script to the requested facility\n",
             "outputApplicationName": "GenericGatherApp",
             "outputApplicationType": "PythonApp",
-            "outputApplicationId": "c60ebf83-5cc1-4ebe-b979-55721f9b56cf",
+            "outputApplicationId": "5e2101d1-3435-4dbb-94e5-60705231decd",
             "outputApplicationDescription": "App that reads all its inputs and simply writes them in concatenated to all its outputs. This can be used stand-alone or as part of a Gather. It does not do anything to the data, just passing it on."
         },
         {
