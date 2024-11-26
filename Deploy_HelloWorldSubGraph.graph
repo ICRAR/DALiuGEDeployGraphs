@@ -1409,7 +1409,7 @@
                 },
                 {
                     "name": "pip_name",
-                    "value": "",
+                    "value": "SlurmClientTest",
                     "defaultValue": "",
                     "description": "",
                     "readonly": false,
