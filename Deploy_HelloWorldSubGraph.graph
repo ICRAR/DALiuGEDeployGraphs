@@ -1379,7 +1379,7 @@
                 },
                 {
                     "name": "submit",
-                    "value": false,
+                    "value": true,
                     "defaultValue": "False",
                     "description": "",
                     "readonly": false,
