@@ -50,9 +50,9 @@
             "id": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
             "name": "HelloWorld-simple.graph",
             "description": "GitHub: ICRAR/EAGLE-graph-repo (master): examples/HelloWorld-simple.graph",
-            "x": 1261.1700999476545,
-            "y": 426.19337675375135,
-            "radius": 121.04059813499794,
+            "x": 1308.845887622614,
+            "y": 444.6485203698646,
+            "radius": 169.58136252897492,
             "collapsed": true,
             "subject": null,
             "expanded": true,
@@ -425,8 +425,8 @@
             "id": "82347e02-4c3d-458e-bed8-e25104580fe5",
             "name": "HelloWorldApp",
             "description": "A simple APP that implements the standard Hello World in DALiuGE. It allows to change 'World' with some other string and it also permits to connect the single output port to multiple sinks, which will all receive the same message. App does not require any input.",
-            "x": 1241.705184473501,
-            "y": 458.1241316364618,
+            "x": 1234.0155413001207,
+            "y": 512.9547428376596,
             "radius": 25,
             "collapsed": true,
             "subject": null,
@@ -578,8 +578,8 @@
             "id": "c503ae1a-733b-48a3-a804-5da219182b05",
             "name": "File",
             "description": "A standard file on a filesystem mounted to the deployment machine",
-            "x": 1274.3931242816848,
-            "y": 385.6120909668247,
+            "x": 1299.76894675384,
+            "y": 383.30519801481057,
             "radius": 25,
             "collapsed": true,
             "subject": null,
@@ -746,7 +746,7 @@
             "id": "a62fd361-a8a3-4808-ad64-576d93631d16",
             "name": "out",
             "description": "In-memory storage of intermediate data products",
-            "x": 975.7548767463715,
+            "x": 974.9859124290334,
             "y": 415.57653791471733,
             "radius": 25,
             "collapsed": true,
@@ -1585,18 +1585,26 @@
             "closesLoop": false
         },
         {
-            "from": "c503ae1a-733b-48a3-a804-5da219182b05",
-            "fromPort": "c369cc7d-3df4-4d5c-a881-225f1100ec65",
-            "to": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
-            "toPort": "8c4a45b8-4e34-4c4a-b0e6-0a32377d31ac",
-            "loop_aware": "0",
-            "closesLoop": false
-        },
-        {
             "from": "d4e4f68b-d374-4964-bbff-fbde0270de05",
             "fromPort": "2f402850-c56c-48ee-9662-172ba55a1704",
             "to": "a62fd361-a8a3-4808-ad64-576d93631d16",
             "toPort": "3855a052-d137-4fe2-97c9-475e17e41111",
+            "loop_aware": "0",
+            "closesLoop": false
+        },
+        {
+            "from": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
+            "fromPort": "403193d7-ae05-4600-b3f8-69d10ae474c7",
+            "to": "fae2cb2d-4b80-4f81-8dc1-b182a3d5c2de",
+            "toPort": "de1d04fb-7c8d-43ea-9022-5e7554d1ed5a",
+            "loop_aware": "0",
+            "closesLoop": false
+        },
+        {
+            "from": "a62fd361-a8a3-4808-ad64-576d93631d16",
+            "fromPort": "3855a052-d137-4fe2-97c9-475e17e41111",
+            "to": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
+            "toPort": "8c4a45b8-4e34-4c4a-b0e6-0a32377d31ac",
             "loop_aware": "0",
             "closesLoop": false
         },
@@ -1609,10 +1617,10 @@
             "closesLoop": false
         },
         {
-            "from": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
-            "fromPort": "403193d7-ae05-4600-b3f8-69d10ae474c7",
-            "to": "fae2cb2d-4b80-4f81-8dc1-b182a3d5c2de",
-            "toPort": "de1d04fb-7c8d-43ea-9022-5e7554d1ed5a",
+            "from": "c503ae1a-733b-48a3-a804-5da219182b05",
+            "fromPort": "c369cc7d-3df4-4d5c-a881-225f1100ec65",
+            "to": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
+            "toPort": "8c4a45b8-4e34-4c4a-b0e6-0a32377d31ac",
             "loop_aware": "0",
             "closesLoop": false
         }
