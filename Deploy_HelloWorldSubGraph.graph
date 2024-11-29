@@ -50,9 +50,9 @@
             "id": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
             "name": "HelloWorld-simple.graph",
             "description": "GitHub: ICRAR/EAGLE-graph-repo (master): examples/HelloWorld-simple.graph",
-            "x": 1294.8610969979416,
-            "y": 450.6420020661529,
-            "radius": 162.31712959896385,
+            "x": 1302.8524059263261,
+            "y": 439.6539522896245,
+            "radius": 161.81046141487226,
             "collapsed": true,
             "subject": null,
             "expanded": true,
@@ -1605,6 +1605,14 @@
             "fromPort": "3855a052-d137-4fe2-97c9-475e17e41111",
             "to": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
             "toPort": "fd7b5d12-312c-4e4b-9f38-a95ac32a4f86",
+            "loop_aware": "0",
+            "closesLoop": false
+        },
+        {
+            "from": "c503ae1a-733b-48a3-a804-5da219182b05",
+            "fromPort": "c369cc7d-3df4-4d5c-a881-225f1100ec65",
+            "to": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
+            "toPort": "8c4a45b8-4e34-4c4a-b0e6-0a32377d31ac",
             "loop_aware": "0",
             "closesLoop": false
         }
