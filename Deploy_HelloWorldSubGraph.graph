@@ -52,7 +52,7 @@
             "description": "GitHub: ICRAR/EAGLE-graph-repo (master): examples/HelloWorld-simple.graph",
             "x": 1217.1668135790899,
             "y": 447.5460463216067,
-            "radius": 161.27403356602292,
+            "radius": 182.88909521675407,
             "collapsed": true,
             "subject": null,
             "expanded": true,
@@ -248,7 +248,7 @@
                     "defaultValue": "",
                     "description": "Object reference",
                     "readonly": true,
-                    "type": "Object.UNIDENTIFIED",
+                    "type": "Object",
                     "precious": false,
                     "options": [],
                     "positional": false,
@@ -423,8 +423,8 @@
             "id": "82347e02-4c3d-458e-bed8-e25104580fe5",
             "name": "HelloWorldApp",
             "description": "A simple APP that implements the standard Hello World in DALiuGE. It allows to change 'World' with some other string and it also permits to connect the single output port to multiple sinks, which will all receive the same message. App does not require any input.",
-            "x": 1159.9245625278704,
-            "y": 537.0865115034525,
+            "x": 1215.1692207517476,
+            "y": 575.4195396587958,
             "radius": 25,
             "collapsed": true,
             "subject": null,
@@ -1786,6 +1786,14 @@
             "fromPort": "c638e53f-0b7a-4a3f-b92d-d77e583f8072",
             "to": "5c526202-b9ba-4624-9055-f9aa191cc60e",
             "toPort": "ec1d5dda-54a8-4a6b-94ba-85c2ba90e4a8",
+            "loop_aware": "0",
+            "closesLoop": false
+        },
+        {
+            "from": "a62fd361-a8a3-4808-ad64-576d93631d16",
+            "fromPort": "3855a052-d137-4fe2-97c9-475e17e41111",
+            "to": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
+            "toPort": "a321ca0c-628e-4202-bc22-7045dad64418",
             "loop_aware": "0",
             "closesLoop": false
         }
