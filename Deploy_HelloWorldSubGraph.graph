@@ -50,9 +50,9 @@
             "id": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
             "name": "HelloWorld-simple.graph",
             "description": "GitHub: ICRAR/EAGLE-graph-repo (master): examples/HelloWorld-simple.graph",
-            "x": 1217.1668135790899,
-            "y": 447.54604632160675,
-            "radius": 182.88909521675401,
+            "x": 1216.039371574521,
+            "y": 446.4186043170378,
+            "radius": 184.0038700252934,
             "collapsed": true,
             "subject": null,
             "expanded": true,
@@ -259,11 +259,11 @@
                 },
                 {
                     "name": "input_parser",
-                    "value": "pickle",
+                    "value": false,
                     "defaultValue": "pickle",
                     "description": "Input port parsing technique",
                     "readonly": false,
-                    "type": "Select",
+                    "type": "Boolean",
                     "precious": false,
                     "options": [
                         "pickle",
@@ -373,21 +373,6 @@
                     "id": "6b842269-6013-4d71-b9d9-20cc8a3f561a",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
-                },
-                {
-                    "name": "input",
-                    "value": "",
-                    "defaultValue": "",
-                    "description": "",
-                    "readonly": false,
-                    "type": "Object",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "encoding": "pickle",
-                    "id": "928116b5-1206-44d3-a8ab-0760a4eafb92",
-                    "parameterType": "ComponentParameter",
-                    "usage": "InputPort"
                 },
                 {
                     "name": "output",
@@ -1377,7 +1362,7 @@
                 },
                 {
                     "name": "submit",
-                    "value": true,
+                    "value": false,
                     "defaultValue": "False",
                     "description": "",
                     "readonly": false,
@@ -1392,8 +1377,8 @@
                 },
                 {
                     "name": "remote",
-                    "value": true,
-                    "defaultValue": "True",
+                    "value": false,
+                    "defaultValue": "false",
                     "description": "",
                     "readonly": false,
                     "type": "Boolean",
@@ -1770,14 +1755,6 @@
             "fromPort": "403193d7-ae05-4600-b3f8-69d10ae474c7",
             "to": "fae2cb2d-4b80-4f81-8dc1-b182a3d5c2de",
             "toPort": "de1d04fb-7c8d-43ea-9022-5e7554d1ed5a",
-            "loop_aware": "0",
-            "closesLoop": false
-        },
-        {
-            "from": "c503ae1a-733b-48a3-a804-5da219182b05",
-            "fromPort": "c369cc7d-3df4-4d5c-a881-225f1100ec65",
-            "to": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
-            "toPort": "928116b5-1206-44d3-a8ab-0760a4eafb92",
             "loop_aware": "0",
             "closesLoop": false
         },
