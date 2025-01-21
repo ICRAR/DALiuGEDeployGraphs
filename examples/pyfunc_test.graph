@@ -248,7 +248,7 @@
                     "positional": false,
                     "encoding": "pickle",
                     "id": "82a60cdf-5625-437d-ba2b-80a9fb95a0ee",
-                    "parameterType": "ApplicationArgument",
+                    "parameterType": "ComponentParameter",
                     "usage": "OutputPort"
                 }
             ],
@@ -909,7 +909,7 @@
                 },
                 {
                     "name": "func_name",
-                    "value": "string.split",
+                    "value": "os.path.basename",
                     "defaultValue": "",
                     "description": "Python fuction name",
                     "readonly": false,
