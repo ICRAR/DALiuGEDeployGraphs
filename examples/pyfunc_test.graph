@@ -231,7 +231,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "encoding": "binary",
+                    "encoding": "pickle",
                     "id": "e5689767-d284-4c8f-8859-ab27df96681a",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputPort"
@@ -248,7 +248,7 @@
                     "positional": false,
                     "encoding": "pickle",
                     "id": "82a60cdf-5625-437d-ba2b-80a9fb95a0ee",
-                    "parameterType": "ComponentParameter",
+                    "parameterType": "ApplicationArgument",
                     "usage": "OutputPort"
                 }
             ],
@@ -272,7 +272,7 @@
             "id": "0a24e4d9-5df8-47ee-a251-2216d8727dcd",
             "name": "generate",
             "description": "Generate the initial ",
-            "x": 1371.0742172648345,
+            "x": 1371.6933797909408,
             "y": 357.0966898954704,
             "subject": null,
             "repositoryUrl": "",
@@ -477,7 +477,7 @@
                 },
                 {
                     "name": "pathname",
-                    "value": "testPathName.txt",
+                    "value": "",
                     "defaultValue": "",
                     "description": " The port carrying the content read from the URL.",
                     "readonly": false,
@@ -660,8 +660,8 @@
             "id": "f9d33b0d-5a75-4cec-9c18-e2eab104858c",
             "name": "result",
             "description": "A standard file on a filesystem mounted to the deployment machine \nIn some cases drops are created **outside** the context of a session, most notably during unit tests. In these cases the base directory is a fixed location under ``/tmp``.\nThe following table summarizes the calculation of the final path used by the ``FileDrop`` class depending on its parameters:\n============ ===================== ===================== ========== . filepath ------------ ------------------------------------------------------ dirname empty relative absolute ============ ===================== ===================== ========== **empty** /``$B``/``$u`` /``$B``/``$f`` /``$f`` **relative** /``$B``/``$d``/``$u`` /``$B``/``$d``/``$f`` **ERROR** **absolute** /``$d``/``$u`` /``$d``/``$f`` **ERROR** ============ ===================== ===================== ==========\nIn the table, ``$f`` is the value of ``filepath``, ``$d`` is the value of ``dirname``, ``$u`` is the drop's UID and ``$B`` is the base directory for this drop's session, namelly ``/the/cwd/$session_id``.",
-            "x": 1698.2158524215768,
-            "y": 356.1649850523169,
+            "x": 1697.5966898954705,
+            "y": 357.4033101045296,
             "subject": null,
             "repositoryUrl": "",
             "commitHash": "",
@@ -741,7 +741,7 @@
                     "encoding": "pickle",
                     "id": "b2f11521-2eb3-4da9-97be-7bdf620d703c",
                     "parameterType": "ApplicationArgument",
-                    "usage": "InputPort"
+                    "usage": "InputOutput"
                 },
                 {
                     "name": "dropclass",
@@ -757,21 +757,6 @@
                     "id": "eb383451-3fdb-42cf-b454-a5e7bffd8392",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
-                },
-                {
-                    "name": "path",
-                    "value": "",
-                    "defaultValue": "",
-                    "description": "",
-                    "readonly": false,
-                    "type": "String",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "encoding": "pickle",
-                    "id": "555c2c88-c396-42b7-9225-7ceff282d146",
-                    "parameterType": "ApplicationArgument",
-                    "usage": "OutputPort"
                 }
             ],
             "inputAppFields": [],
@@ -792,7 +777,7 @@
             "color": "#0059a5",
             "drawOrderHint": 0,
             "id": "b96ff0cc-aed1-46e3-8010-4bbb9325509a",
-            "name": "os.path.basename",
+            "name": "os.path.abspath",
             "description": "An application that wraps a simple python function. The inputs of the application are treated as the arguments of the function. Conversely, the output of the function is treated as the output of the application. If the application has more than one output, the result of calling the function is treated as an iterable, with each individual object being written to its corresponding output. \nUsers indicate the function to be wrapped via the ``func_name`` parameter. Otherwise, users can also *send* over the python code using the ``func_code`` parameter. The code needs to be base64-encoded and produced with the marshal module of the same Python version used to run DALiuGE.\nBoth inputs and outputs are serialized using the pickle protocol.",
             "x": 1806.0209059233448,
             "y": 363.3893728222996,
@@ -924,7 +909,7 @@
                 },
                 {
                     "name": "func_name",
-                    "value": "os.path.basename",
+                    "value": "string.split",
                     "defaultValue": "",
                     "description": "Python fuction name",
                     "readonly": false,
@@ -983,7 +968,7 @@
                     "usage": "NoPort"
                 },
                 {
-                    "name": "p",
+                    "name": "path",
                     "value": "",
                     "defaultValue": "",
                     "description": " The port carrying the content read from the URL.",
@@ -1007,7 +992,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "encoding": "utf-8",
+                    "encoding": "pickle",
                     "id": "6d8cb748-7de0-41c1-92ea-bb002e0bf763",
                     "parameterType": "ComponentParameter",
                     "usage": "OutputPort"
@@ -1215,18 +1200,18 @@
             "closesLoop": false
         },
         {
-            "from": "b96ff0cc-aed1-46e3-8010-4bbb9325509a",
-            "fromPort": "6d8cb748-7de0-41c1-92ea-bb002e0bf763",
-            "to": "1545e75e-1f5b-487f-b5ea-6d088b485f88",
-            "toPort": "b3a81ec9-71ed-42d5-88ec-10f537ab70e1",
+            "from": "f9d33b0d-5a75-4cec-9c18-e2eab104858c",
+            "fromPort": "b2f11521-2eb3-4da9-97be-7bdf620d703c",
+            "to": "b96ff0cc-aed1-46e3-8010-4bbb9325509a",
+            "toPort": "9404001d-74de-481a-9e53-0bc1b31e68b3",
             "loop_aware": "0",
             "closesLoop": false
         },
         {
-            "from": "f9d33b0d-5a75-4cec-9c18-e2eab104858c",
-            "fromPort": "555c2c88-c396-42b7-9225-7ceff282d146",
-            "to": "b96ff0cc-aed1-46e3-8010-4bbb9325509a",
-            "toPort": "9404001d-74de-481a-9e53-0bc1b31e68b3",
+            "from": "b96ff0cc-aed1-46e3-8010-4bbb9325509a",
+            "fromPort": "6d8cb748-7de0-41c1-92ea-bb002e0bf763",
+            "to": "1545e75e-1f5b-487f-b5ea-6d088b485f88",
+            "toPort": "b3a81ec9-71ed-42d5-88ec-10f537ab70e1",
             "loop_aware": "0",
             "closesLoop": false
         }
