@@ -234,10 +234,10 @@
                     "encoding": "binary",
                     "id": "e5689767-d284-4c8f-8859-ab27df96681a",
                     "parameterType": "ApplicationArgument",
-                    "usage": "InputPort"
+                    "usage": "NoPort"
                 },
                 {
-                    "name": "content",
+                    "name": "path",
                     "value": "",
                     "defaultValue": "",
                     "description": " The port carrying the content read from the URL.",
@@ -246,10 +246,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "encoding": "binary",
+                    "encoding": "utf-8",
                     "id": "82a60cdf-5625-437d-ba2b-80a9fb95a0ee",
                     "parameterType": "ComponentParameter",
-                    "usage": "OutputPort"
+                    "usage": "InputOutput"
                 }
             ],
             "inputAppFields": [],
@@ -476,7 +476,7 @@
                     "usage": "NoPort"
                 },
                 {
-                    "name": "pathname",
+                    "name": "content",
                     "value": "",
                     "defaultValue": "",
                     "description": " The port carrying the content read from the URL.",
@@ -485,7 +485,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "encoding": "pickle",
+                    "encoding": "utf-8",
                     "id": "ff0e33d5-2fa2-4acf-a1b6-769f77a1ec08",
                     "parameterType": "ComponentParameter",
                     "usage": "OutputPort"
@@ -992,7 +992,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "encoding": "binary",
+                    "encoding": "utf-8",
                     "id": "6d8cb748-7de0-41c1-92ea-bb002e0bf763",
                     "parameterType": "ComponentParameter",
                     "usage": "OutputPort"
@@ -1184,14 +1184,6 @@
             "closesLoop": false
         },
         {
-            "from": "c22faba8-9a69-4751-bee1-50bb46dd06c7",
-            "fromPort": "40e3b8c1-3b02-4e36-9699-2a791a28524a",
-            "to": "e478e74c-c68c-4388-82e4-9142faa27fd1",
-            "toPort": "e5689767-d284-4c8f-8859-ab27df96681a",
-            "loop_aware": "0",
-            "closesLoop": false
-        },
-        {
             "from": "e478e74c-c68c-4388-82e4-9142faa27fd1",
             "fromPort": "82a60cdf-5625-437d-ba2b-80a9fb95a0ee",
             "to": "f9d33b0d-5a75-4cec-9c18-e2eab104858c",
@@ -1212,6 +1204,14 @@
             "fromPort": "6d8cb748-7de0-41c1-92ea-bb002e0bf763",
             "to": "1545e75e-1f5b-487f-b5ea-6d088b485f88",
             "toPort": "b3a81ec9-71ed-42d5-88ec-10f537ab70e1",
+            "loop_aware": "0",
+            "closesLoop": false
+        },
+        {
+            "from": "c22faba8-9a69-4751-bee1-50bb46dd06c7",
+            "fromPort": "40e3b8c1-3b02-4e36-9699-2a791a28524a",
+            "to": "e478e74c-c68c-4388-82e4-9142faa27fd1",
+            "toPort": "82a60cdf-5625-437d-ba2b-80a9fb95a0ee",
             "loop_aware": "0",
             "closesLoop": false
         }
