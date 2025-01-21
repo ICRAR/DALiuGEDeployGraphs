@@ -231,7 +231,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "encoding": "pickle",
+                    "encoding": "binary",
                     "id": "e5689767-d284-4c8f-8859-ab27df96681a",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputPort"
@@ -777,7 +777,7 @@
             "color": "#0059a5",
             "drawOrderHint": 0,
             "id": "b96ff0cc-aed1-46e3-8010-4bbb9325509a",
-            "name": "os.path.abspath",
+            "name": "os.path.basename",
             "description": "An application that wraps a simple python function. The inputs of the application are treated as the arguments of the function. Conversely, the output of the function is treated as the output of the application. If the application has more than one output, the result of calling the function is treated as an iterable, with each individual object being written to its corresponding output. \nUsers indicate the function to be wrapped via the ``func_name`` parameter. Otherwise, users can also *send* over the python code using the ``func_code`` parameter. The code needs to be base64-encoded and produced with the marshal module of the same Python version used to run DALiuGE.\nBoth inputs and outputs are serialized using the pickle protocol.",
             "x": 1806.0209059233448,
             "y": 363.3893728222996,
@@ -909,7 +909,7 @@
                 },
                 {
                     "name": "func_name",
-                    "value": "os.path.basename",
+                    "value": "os.path.split",
                     "defaultValue": "",
                     "description": "Python fuction name",
                     "readonly": false,
@@ -968,7 +968,7 @@
                     "usage": "NoPort"
                 },
                 {
-                    "name": "path",
+                    "name": "p",
                     "value": "",
                     "defaultValue": "",
                     "description": " The port carrying the content read from the URL.",
