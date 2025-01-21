@@ -312,7 +312,7 @@
                 },
                 {
                     "name": "command",
-                    "value": "echo \"'.'\" > %o0",
+                    "value": "echo \"'.'\"",
                     "defaultValue": "",
                     "description": "The command to be executed",
                     "readonly": false,
