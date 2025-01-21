@@ -983,7 +983,7 @@
                     "usage": "NoPort"
                 },
                 {
-                    "name": "path",
+                    "name": "p",
                     "value": "",
                     "defaultValue": "",
                     "description": " The port carrying the content read from the URL.",
