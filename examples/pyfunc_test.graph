@@ -231,7 +231,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "encoding": "pickle",
+                    "encoding": "binary",
                     "id": "e5689767-d284-4c8f-8859-ab27df96681a",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputPort"
@@ -248,7 +248,7 @@
                     "positional": false,
                     "encoding": "pickle",
                     "id": "82a60cdf-5625-437d-ba2b-80a9fb95a0ee",
-                    "parameterType": "ApplicationArgument",
+                    "parameterType": "ComponentParameter",
                     "usage": "OutputPort"
                 }
             ],
@@ -1007,9 +1007,9 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "encoding": "pickle",
+                    "encoding": "utf-8",
                     "id": "6d8cb748-7de0-41c1-92ea-bb002e0bf763",
-                    "parameterType": "ApplicationArgument",
+                    "parameterType": "ComponentParameter",
                     "usage": "OutputPort"
                 }
             ],
