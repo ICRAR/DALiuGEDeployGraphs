@@ -686,8 +686,8 @@
             "id": "b988ed98-e11b-4bcb-b561-d90ead73debe",
             "name": "output",
             "description": "An application component able to run an arbitrary command within the Bash Shell",
-            "x": 1813,
-            "y": 369,
+            "x": 1867.8882682462258,
+            "y": 359.13244615798186,
             "subject": null,
             "repositoryUrl": "",
             "commitHash": "",
@@ -726,7 +726,7 @@
                 },
                 {
                     "name": "command",
-                    "value": "%i0 | cat ",
+                    "value": "cat",
                     "defaultValue": "",
                     "description": "The command to be executed",
                     "readonly": false,
@@ -752,7 +752,7 @@
                     "encoding": "pickle",
                     "id": "09d0e983-ea4a-4b5e-b5cc-f2dc4be39033",
                     "parameterType": "ApplicationArgument",
-                    "usage": "NoPort"
+                    "usage": "InputPort"
                 },
                 {
                     "name": "output_redirection",
@@ -902,7 +902,7 @@
                     "encoding": "pickle",
                     "id": "3a2e3ac4-f343-46bb-ad65-9e87fe22c88e",
                     "parameterType": "ComponentParameter",
-                    "usage": "InputPort"
+                    "usage": "NoPort"
                 },
                 {
                     "name": "dropclass",
@@ -1514,7 +1514,7 @@
             "from": "4f9c0432-2515-4e38-8dcb-61d968d981cc",
             "fromPort": "49dcc6b7-e5d1-433f-af74-196772b3a558",
             "to": "b988ed98-e11b-4bcb-b561-d90ead73debe",
-            "toPort": "3a2e3ac4-f343-46bb-ad65-9e87fe22c88e",
+            "toPort": "09d0e983-ea4a-4b5e-b5cc-f2dc4be39033",
             "loop_aware": "0",
             "closesLoop": false
         }
