@@ -752,7 +752,7 @@
                     "encoding": "pickle",
                     "id": "09d0e983-ea4a-4b5e-b5cc-f2dc4be39033",
                     "parameterType": "ApplicationArgument",
-                    "usage": "InputPort"
+                    "usage": "NoPort"
                 },
                 {
                     "name": "output_redirection",
@@ -901,8 +901,8 @@
                     "positional": true,
                     "encoding": "pickle",
                     "id": "3a2e3ac4-f343-46bb-ad65-9e87fe22c88e",
-                    "parameterType": "ApplicationArgument",
-                    "usage": "NoPort"
+                    "parameterType": "ComponentParameter",
+                    "usage": "InputPort"
                 },
                 {
                     "name": "dropclass",
@@ -1514,7 +1514,7 @@
             "from": "4f9c0432-2515-4e38-8dcb-61d968d981cc",
             "fromPort": "49dcc6b7-e5d1-433f-af74-196772b3a558",
             "to": "b988ed98-e11b-4bcb-b561-d90ead73debe",
-            "toPort": "09d0e983-ea4a-4b5e-b5cc-f2dc4be39033",
+            "toPort": "3a2e3ac4-f343-46bb-ad65-9e87fe22c88e",
             "loop_aware": "0",
             "closesLoop": false
         }
