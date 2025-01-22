@@ -899,7 +899,7 @@
                     "precious": false,
                     "options": [],
                     "positional": true,
-                    "encoding": "utf-8",
+                    "encoding": "pickle",
                     "id": "3a2e3ac4-f343-46bb-ad65-9e87fe22c88e",
                     "parameterType": "ComponentParameter",
                     "usage": "InputOutput"
