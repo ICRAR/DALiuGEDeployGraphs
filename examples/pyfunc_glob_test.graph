@@ -726,7 +726,7 @@
                 },
                 {
                     "name": "command",
-                    "value": "%o0 | cat ",
+                    "value": "%i0 | cat ",
                     "defaultValue": "",
                     "description": "The command to be executed",
                     "readonly": false,
