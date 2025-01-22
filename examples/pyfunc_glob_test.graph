@@ -272,7 +272,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "encoding": "pickle",
+                    "encoding": "utf-8",
                     "id": "8b8bf43c-ecd9-4bb9-b196-00fe5d107628",
                     "parameterType": "ComponentParameter",
                     "usage": "OutputPort"
@@ -899,7 +899,7 @@
                     "precious": false,
                     "options": [],
                     "positional": true,
-                    "encoding": "pickle",
+                    "encoding": "utf-8",
                     "id": "3a2e3ac4-f343-46bb-ad65-9e87fe22c88e",
                     "parameterType": "ComponentParameter",
                     "usage": "InputOutput"
