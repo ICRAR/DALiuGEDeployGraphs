@@ -2,8 +2,8 @@
     "modelData": {
         "filePath": "examples/astropy_SkyCoords_Constellations.graph",
         "fileType": "Graph",
-        "shortDescription": "",
-        "detailedDescription": "",
+        "shortDescription": "Usage of astropy SkyCoord objects",
+        "detailedDescription": "Graph initializes two SkyCoord objects and calculates the separation between the two and retrieves the constellation of one of them.",
         "repoService": "GitHub",
         "repoBranch": "main",
         "repo": "ICRAR/DALiuGEDeployGraphs",
