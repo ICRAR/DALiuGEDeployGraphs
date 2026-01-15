@@ -7,8 +7,8 @@
         "repoService": "GitHub",
         "repoBranch": "main",
         "repo": "ICRAR/DALiuGEDeployGraphs",
-        "generatorVersion": "v6.4.2",
-        "generatorCommitHash": "a0929c1f72151c7e9c430a839da45bc8f1d4284d",
+        "generatorVersion": "v6.9.1:eagle-1601",
+        "generatorCommitHash": "09c15ecabe96b6fc0c0eca3e7116c6345597cd29",
         "generatorName": "EAGLE",
         "schemaVersion": "OJS",
         "readonly": true,
@@ -19,25 +19,87 @@
         "lastModifiedName": "",
         "lastModifiedEmail": "",
         "lastModifiedDatetime": 0,
-        "numLGNodes": 7
+        "numLGNodes": 9
     },
     "activeGraphConfigId": "529c9ad4-e15f-4838-84da-c822084e3df3",
     "graphConfigurations": {
         "8445f654-88c7-4ac1-b469-460ff495911c": {
-            "name": "newConfig",
-            "description": "",
-            "nodes": {},
-            "lastModifiedName": "",
-            "lastModifiedEmail": "",
-            "lastModifiedDatetime": 0
+            "modelData": {
+                "name": "newConfig",
+                "shortDescription": "",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "8445f654-88c7-4ac1-b469-460ff495911c",
+            "nodes": {}
         },
         "529c9ad4-e15f-4838-84da-c822084e3df3": {
-            "name": "newConfig",
-            "description": "",
-            "nodes": {},
-            "lastModifiedName": "",
-            "lastModifiedEmail": "",
-            "lastModifiedDatetime": 0
+            "modelData": {
+                "name": "newConfig",
+                "shortDescription": "",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "529c9ad4-e15f-4838-84da-c822084e3df3",
+            "nodes": {}
         }
     },
     "nodeDataArray": [
@@ -45,17 +107,14 @@
             "category": "SubGraph",
             "categoryType": "Construct",
             "isGroup": true,
-            "color": "rgb(227 189 100)",
+            "color": "#e3bd64",
             "drawOrderHint": 0,
             "id": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
             "name": "HelloWorld-simple.graph",
             "description": "GitHub: ICRAR/EAGLE-graph-repo (master): examples/HelloWorld-simple.graph",
+            "comment": "",
             "x": 1220.4048224887142,
             "y": 478.4319110211076,
-            "radius": 125.99329890149824,
-            "collapsed": true,
-            "subject": null,
-            "expanded": true,
             "repositoryUrl": "",
             "commitHash": "",
             "paletteDownloadUrl": "",
@@ -392,28 +451,27 @@
             ],
             "inputApplicationName": "SlurmClient::submit_job",
             "inputApplicationType": "PythonApp",
-            "inputApplicationId": "532ecccf-4e0b-49b9-a2b3-db806eace1e7",
+            "inputApplicationId": "56a6a45e-d1c8-46f4-8dcb-860b7e032b13",
             "inputApplicationDescription": "_::memberfunction_: Submits the slurm script to the requested facility\n",
+            "inputApplicationComment": "",
             "outputApplicationName": "SlurmClient::collect_job_data",
             "outputApplicationType": "PythonApp",
-            "outputApplicationId": "b728e35f-75e5-45aa-a970-de38e71611a6",
-            "outputApplicationDescription": "_::memberfunction_: 1. Zip remote session directory\n2. Copy it to this machine\n"
+            "outputApplicationId": "262fe6e9-07d6-4af1-828a-59b58500f312",
+            "outputApplicationDescription": "_::memberfunction_: 1. Zip remote session directory\n2. Copy it to this machine\n",
+            "outputApplicationComment": ""
         },
         {
             "category": "PythonApp",
             "categoryType": "Application",
             "isGroup": false,
-            "color": "#0059a5",
+            "color": "#ff66cc",
             "drawOrderHint": 0,
             "id": "82347e02-4c3d-458e-bed8-e25104580fe5",
             "name": "HelloWorldApp",
             "description": "A simple APP that implements the standard Hello World in DALiuGE. It allows to change 'World' with some other string and it also permits to connect the single output port to multiple sinks, which will all receive the same message. App does not require any input.",
+            "comment": "",
             "x": 1232.631024408513,
             "y": 540.4959323452647,
-            "radius": 25,
-            "collapsed": true,
-            "subject": null,
-            "expanded": true,
             "repositoryUrl": "",
             "commitHash": "",
             "paletteDownloadUrl": "",
@@ -547,10 +605,12 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "File",
@@ -561,12 +621,9 @@
             "id": "c503ae1a-733b-48a3-a804-5da219182b05",
             "name": "File",
             "description": "A standard file on a filesystem mounted to the deployment machine",
+            "comment": "",
             "x": 1272.189460438076,
             "y": 429.868552803507,
-            "radius": 25,
-            "collapsed": true,
-            "subject": null,
-            "expanded": true,
             "repositoryUrl": "",
             "commitHash": "",
             "paletteDownloadUrl": "",
@@ -715,10 +772,12 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "Memory",
@@ -729,12 +788,9 @@
             "id": "a62fd361-a8a3-4808-ad64-576d93631d16",
             "name": "out",
             "description": "In-memory storage of intermediate data products",
+            "comment": "",
             "x": 900.5986986552613,
             "y": 527.1542222750467,
-            "radius": 25,
-            "collapsed": true,
-            "subject": null,
-            "expanded": true,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "96daba4",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
@@ -867,10 +923,12 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "Memory",
@@ -881,12 +939,9 @@
             "id": "fae2cb2d-4b80-4f81-8dc1-b182a3d5c2de",
             "name": "trigger",
             "description": "In-memory storage of intermediate data products",
+            "comment": "",
             "x": 1160.645920722626,
             "y": 443.13160607723137,
-            "radius": 25,
-            "collapsed": true,
-            "subject": null,
-            "expanded": true,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "20b29ec",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE-graph-repo/master/daliuge/daliuge-master.palette",
@@ -1020,26 +1075,25 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "PythonApp",
             "categoryType": "Application",
             "isGroup": false,
-            "color": "#0059a5",
+            "color": "#ff66cc",
             "drawOrderHint": 0,
             "id": "d4e4f68b-d374-4964-bbff-fbde0270de05",
             "name": "SlurmClient::__init__",
             "description": "parameters we can control:\n\n1. user group / account name (Required)\n2. whether to submit a graph, and if so provide graph path\n3. # of nodes (of Drop Managers)\n4. how long to run\n5. whether to produce offline graph vis\n6. whether to attach proxy for remote monitoring, and if so provide\n    DLG_MON_HOST\n    DLG_MON_PORT\n7. Root directory of the Log files (Required)\n",
+            "comment": "",
             "x": 800.6403783573638,
             "y": 448.6083149994781,
-            "radius": 25,
-            "collapsed": false,
-            "subject": null,
-            "expanded": true,
             "repositoryUrl": "deploy",
             "commitHash": "0.1",
             "paletteDownloadUrl": "",
@@ -1197,7 +1251,7 @@
                 },
                 {
                     "name": "mon_host",
-                    "value": null,
+                    "value": "",
                     "defaultValue": "DEFAULT_MON_HOST",
                     "description": "",
                     "readonly": false,
@@ -1212,7 +1266,7 @@
                 },
                 {
                     "name": "mon_port",
-                    "value": null,
+                    "value": "",
                     "defaultValue": "DEFAULT_MON_PORT",
                     "description": "",
                     "readonly": false,
@@ -1317,7 +1371,7 @@
                 },
                 {
                     "name": "num_islands",
-                    "value": null,
+                    "value": "",
                     "defaultValue": "None",
                     "description": "",
                     "readonly": false,
@@ -1544,10 +1598,12 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "File",
@@ -1558,12 +1614,9 @@
             "id": "5c526202-b9ba-4624-9055-f9aa191cc60e",
             "name": "output",
             "description": "A standard file on a filesystem mounted to the deployment machine",
+            "comment": "",
             "x": 1618.4772992593305,
             "y": 443.8856009515648,
-            "radius": 25,
-            "collapsed": false,
-            "subject": null,
-            "expanded": true,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "20b29ec",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE-graph-repo/master/daliuge/daliuge-master.palette",
@@ -1711,14 +1764,17 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         }
     ],
     "linkDataArray": [
         {
+            "comment": "",
             "from": "82347e02-4c3d-458e-bed8-e25104580fe5",
             "fromPort": "c042dbcf-52f2-4d63-88c5-c8b682945c46",
             "to": "c503ae1a-733b-48a3-a804-5da219182b05",
@@ -1727,6 +1783,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "fae2cb2d-4b80-4f81-8dc1-b182a3d5c2de",
             "fromPort": "de1d04fb-7c8d-43ea-9022-5e7554d1ed5a",
             "to": "82347e02-4c3d-458e-bed8-e25104580fe5",
@@ -1735,6 +1792,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "d4e4f68b-d374-4964-bbff-fbde0270de05",
             "fromPort": "2f402850-c56c-48ee-9662-172ba55a1704",
             "to": "a62fd361-a8a3-4808-ad64-576d93631d16",
@@ -1743,6 +1801,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "a62fd361-a8a3-4808-ad64-576d93631d16",
             "fromPort": "3855a052-d137-4fe2-97c9-475e17e41111",
             "to": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
@@ -1751,6 +1810,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
             "fromPort": "403193d7-ae05-4600-b3f8-69d10ae474c7",
             "to": "fae2cb2d-4b80-4f81-8dc1-b182a3d5c2de",
@@ -1759,6 +1819,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
             "fromPort": "c638e53f-0b7a-4a3f-b92d-d77e583f8072",
             "to": "5c526202-b9ba-4624-9055-f9aa191cc60e",
@@ -1767,6 +1828,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "c503ae1a-733b-48a3-a804-5da219182b05",
             "fromPort": "c369cc7d-3df4-4d5c-a881-225f1100ec65",
             "to": "c03165b1-a347-4112-88a1-b0eb998cb3d8",
